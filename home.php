@@ -178,6 +178,57 @@ include 'components/add_cart.php';
    </div>
 
 </section>
+<section class="about">
+
+
+   <div class="row">
+
+      <div class="image">
+         <img src="/images/fish/fish2.png" alt="">
+      </div>
+
+      <div class="content">
+         <h3>Why choose us?</h3>
+         <p>
+            Welcome to Tep's FishyFlex, where our love for aquatic life meets your passion for fishkeeping! 
+            At Tep's, we're not just a pet shop; we're a community of dedicated fish enthusiasts committed to providing you with a top-notch experience. With a team of knowledgeable experts, 
+            we ensure the health and happiness of every fish we offer. 
+            Dive into a sea of possibilities with our wide selection of vibrant fish species and high-quality aquarium supplies. 
+            What sets us apart is our customer-centric approach—we're here to assist whether you're a seasoned aquarium enthusiast or a first-time fish owner. Join our community, share experiences, and let 
+            Tep's FishyFlex be your trusted partner in creating the perfect underwater haven. Thank you for choosing Tep's FishyFlex, where passion and expertise come together for an immersive aquatic journey!
+         </p>
+         <a href="menu.php" class="btn">Our Fishes</a>
+      </div>
+
+   </div>
+   
+
+</section>
+<section class="contact">
+
+   <div class="row">
+
+   <div class="mapouter">
+      <div class="gmap_canvas">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d369.6121776503232!2d123.7322631882893!3d13.358011154350455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a1ad5cb167bacb%3A0x8cbc069416047daa!2sBaby%20Jane%20Animalandia!5e1!3m2!1sen!2sph!4v1701938808221!5m2!1sen!2sph" 
+             style="width: 580px; height: 550px; border-radius: 25px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+      </div>
+ </div>
+
+      <form action="" method="post">
+         <h3>Tell us something!</h3>
+         <input type="text" name="name" maxlength="50" class="box" placeholder="Enter your Name" required>
+         <input type="number" name="number" min="0" max="9999999999" class="box" placeholder="Enter your Number" required maxlength="10">
+         <input type="email" name="email" maxlength="50" class="box" placeholder="Enter your Email" required>
+         <textarea name="msg" class="box" required placeholder="Enter your Message" maxlength="500" cols="30" rows="10"></textarea>
+         <input type="submit" value="send message" name="send" class="btn">
+      </form>
+
+   </div>
+
+</section>
+
 
 
 
