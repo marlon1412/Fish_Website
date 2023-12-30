@@ -694,7 +694,10 @@ border: 1px solid rgba(255,255,255,0.075);
    text-transform: capitalize;
    color:var(--black);
 }
-
+.contact{
+   margin-top: 100px;
+   margin-bottom: 80px;
+}
 .contact .row{
    display: flex;
    align-items: center;
@@ -1274,14 +1277,24 @@ border: 1px solid rgba(255,255,255,0.15);
 
 
 .footer-distributed{
-	background:#fdfdfd;
+	
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 	box-sizing: border-box;
 	width: 100%;
 	text-align: left;
-	font: bold 16px sans-serif;
+	font: bold 16px;
 	padding: 20px 50px 0;
-	height: 250px;
+   height: 100%;
+	min-height: 250px;
+  
+   background: url(/images/fish/pxfuel.jpg);
+   background-color: #0c0050;
+   
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+
 	
 	
 	
@@ -1440,7 +1453,7 @@ border: 1px solid rgba(255,255,255,0.15);
 	color: #000000;
 }
 .footer-distributed .footer--name{
-	color:  #000000;
+	color:  #ffffff;
 	font-size: 14px;
 	font-weight: normal;
 	margin: 10px;
@@ -1587,4 +1600,23 @@ border: 1px solid rgba(255,255,255,0.15);
 .gmap_canvas iframe{
    position:relative;
    z-index:2;
+}
+.custom-shape-divider-top-1703229176 {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   overflow: hidden;
+   line-height: 0;
+}
+
+.custom-shape-divider-top-1703229176 svg {
+   position: relative;
+   display: block;
+   width: calc(137% + 1.3px);
+   height: 32px;
+}
+
+.custom-shape-divider-top-1703229176 .shape-fill {
+   fill: #FFFFFF;
 }
